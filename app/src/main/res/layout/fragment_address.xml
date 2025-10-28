@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddressFragment">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:hint="House/Office Number"
+        android:inputType="textPersonName"
+        android:text=""
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextStreet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text=""
+        android:autofillHints=""
+        android:hint="Street Address"
+        android:inputType="textPostalAddress"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text=""
+        android:autofillHints=""
+        android:hint="City"
+        android:inputType="textPostalAddress"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextState"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text=""
+        android:autofillHints=""
+        android:hint="State"
+        android:inputType="textPostalAddress"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextZip"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="ZIP Code"
+        android:text=""
+        android:autofillHints=""
+        android:inputType="number"
+        android:paddingBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonSaveAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Address"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_background"
+        android:textSize="18sp"/>
+</LinearLayout>

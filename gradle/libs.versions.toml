@@ -1,0 +1,62 @@
+[versions]
+agp = "8.5.1"
+compiler = "4.15.1'"
+firebaseAuthVersion = "22.1.0"
+firebaseBom = "33.1.2"
+firebaseBomVersion = "33.2.0"
+firebaseCore = "21.1.1"
+firebaseCoreVersion = "21.0.1"
+firebaseDatabaseVersion = "20.3.0"
+firebaseStorage = "21.0.0"
+glide = "4.15.1"
+googleFirebaseDatabase = "20.0.0"
+googleFirebaseDatabaseVersion = "20.2.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.0.0"
+picasso = "2.71828"
+picassoVersion = "2.8"
+playServicesAuth = "21.2.0"
+viewpager2 = "1.1.0"
+firebaseDatabase = "21.0.0"
+carUiLib = "2.6.0"
+
+[libraries]
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-auth-v2210 = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuthVersion" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-bom-v3320 = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
+firebase-core = { module = "com.google.firebase:firebase-core", version.ref = "firebaseCore" }
+firebase-core-v2101 = { module = "com.google.firebase:firebase-core", version.ref = "firebaseCoreVersion" }
+firebase-database-v2000 = { module = "com.google.firebase:firebase-database", version.ref = "googleFirebaseDatabase" }
+firebase-database-v2021 = { module = "com.google.firebase:firebase-database", version.ref = "googleFirebaseDatabaseVersion" }
+firebase-database-v2030 = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabaseVersion" }
+firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+google-firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+picasso-v28 = { module = "com.squareup.picasso:picasso", version.ref = "picassoVersion" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+car-ui-lib = { group = "com.android.car.ui", name = "car-ui-lib", version.ref = "carUiLib" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+

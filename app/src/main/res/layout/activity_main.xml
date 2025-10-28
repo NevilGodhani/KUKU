@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:scrollbars="horizontal"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:contentDescription="@string/nul"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image1"
+                android:importantForAccessibility="no"/>
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image2"
+                android:importantForAccessibility="no"/>
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image3"
+                android:importantForAccessibility="no"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="245dp"
+        android:layout_height="55dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/main">
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="245dp"
+            android:layout_height="55dp"
+            android:text="@string/login"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/later"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/later"
+        android:textColor="@color/main"
+        android:textSize="16sp"
+        android:paddingTop="15dp"/>
+
+</LinearLayout>

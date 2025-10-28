@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KUKU</string>
+    <string name="login"><b>Login to continue ></b></string>
+    <string name="later"><u>Login Later</u></string>
+    <string name="nul">NULL</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_image">product_image</string>
+    <string name="default_web_client_id">\n</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="update">Update</string>
+
+</resources>

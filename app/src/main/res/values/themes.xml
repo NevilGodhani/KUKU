@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.KUKU" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/main</item>
+        <item name="android:textColor">@color/main</item>
+<!--        <item name="colorPrimaryVariant">@color/red</item>-->
+<!--        <item name="android:textColorPrimary">@color/white</item>-->
+       <item name="android:statusBarColor">@color/white</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
+    </style>
+    
+    <style name="Theme.KUKU" parent="Base.Theme.KUKU">
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.kukuTheme">
+<!--        <item name="colorPrimary">@color/pink</item>-->
+    </style>
+
+    <style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#000000</item> <!-- Black color -->
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/wallet"
+        android:icon="@drawable/baseline_wallet_24"
+        android:title="Wallet" />
+    <item
+        android:id="@+id/order_history"
+        android:icon="@drawable/baseline_restore_from_trash_24"
+        android:title="Order History" />
+</menu>

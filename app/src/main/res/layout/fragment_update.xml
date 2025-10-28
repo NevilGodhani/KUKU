@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".UpdateFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/first_name_u"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"
+        android:background="@android:color/white"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:textColorHint="@color/gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_name"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/last_name_u"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:hint="@string/last_name"
+        android:inputType="textPersonName"
+        android:background="@android:color/white"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_id"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/email_u"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:hint="@string/email_id"
+        android:inputType="textEmailAddress"
+        android:background="@android:color/white"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp" />
+
+    <!-- Phone Number -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/phone_number_u"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:background="@android:color/white"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/update_u"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:padding="10dp" />
+
+</LinearLayout>

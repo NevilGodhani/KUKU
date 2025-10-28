@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter by Price"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/price_filter_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/price_under_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Under ₹500" />
+
+        <RadioButton
+            android:id="@+id/price_500_to_1000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹500 - ₹1,000" />
+
+        <RadioButton
+            android:id="@+id/price_1000_to_2000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹1,000 - ₹2,000" />
+
+        <RadioButton
+            android:id="@+id/price_2000_to_3000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹2,000 - ₹3,000" />
+
+        <RadioButton
+            android:id="@+id/price_3000_and_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹3,000 &amp; up" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_apply_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply Filter"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
