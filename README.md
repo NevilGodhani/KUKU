@@ -1,5 +1,9 @@
 # 🐶 KUKU Pet Shop
 
+### 🧠 AI Extension (Future Work)
+This project will later include AI-based modules for:
+- Recommending products based on user behavior (KUKU Pet Shop)
+
 ### 📱 Android E-Commerce Application for Pet Products  
 Developed by **Nevil A. Godhani** | Guided by **Prof. Riddhi Joshi**
 
