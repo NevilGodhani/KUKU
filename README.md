@@ -83,7 +83,7 @@ This section demonstrates how Firebase data can be used to extract insights and 
 
 | User Interface |
 |----------------|
-| [User UI](screenshots/) |
+| [User UI](Screenshots/) |
 
 *(Add your real screenshots in the `/screenshots` folder and update paths.)*
 
