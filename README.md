@@ -81,9 +81,9 @@ This section demonstrates how Firebase data can be used to extract insights and 
 
 ## 📱 Screenshots
 
-| Admin Panel | User Interface |
-|--------------|----------------|
-| [Admin Panel](screenshots/admin_panel.png) | [User UI](screenshots/user_ui.png) |
+| User Interface |
+|----------------|
+| [User UI](screenshots/) |
 
 *(Add your real screenshots in the `/screenshots` folder and update paths.)*
 
